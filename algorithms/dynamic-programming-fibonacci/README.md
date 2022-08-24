@@ -1,4 +1,4 @@
-# Example of Hashing lookup
+# Example of solving Fibonacci number using Dynamic Programming
 
 1. Check [Dynamic Programming](https://www.geeksforgeeks.org/dynamic-programming/).
    - Will focus on using DP on Fibonacci number.
