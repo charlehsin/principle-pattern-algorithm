@@ -1,15 +1,15 @@
 const exponentialRecursive = (base, power) => {
-  if (power == 0) {
+  if (power === 0) {
     return 1;
   }
 
-  if (power == 1) {
+  if (power === 1) {
     return base;
   }
 
   const tempResult = exponentialRecursive(base, Math.floor(power / 2));
 
-  if (power % 2 == 0) {
+  if (power % 2 === 0) {
     return tempResult * tempResult;
   }
   return tempResult * tempResult * base;
